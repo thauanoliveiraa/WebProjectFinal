@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
   }
 
 body{ /* CORPO */
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -36,7 +36,15 @@ body{ /* CORPO */
     padding-top: 10px;
     padding-bottom: 35px;
     3px solid rgb(255, 255, 255);
-    border-color: white;
+    text-shadow:
+    0 0 7px rgba(0, 0, 0, 0.075),
+    0 0 10px rgba(255, 255, 255, 0.014),
+    0 0 21px rgba(150, 154, 160, 0.877),
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
 }
 
 #navMENU ul { /* UL */
@@ -59,18 +67,16 @@ body{ /* CORPO */
 }
 
 #middle{/*SEGUNDO DIV*/
-    background-color: blue;
-    background-image: url(https://revistadesign.com/portal/wp-content/uploads/2020/04/thumbnail-auroraboreal.jpg);
-    background-attachment: fixed;
-    background-position: 100%;
-    visibility: initial;
-    image-rendering: optimizeQuality;
-    filter: sepia(4px);
-    text-align: center;
-    font-size: 100px;
-    padding-top: 60px;
-    padding-bottom: 80px;
+    background-color: yellow;
+    background-image: url(https://images.hdqwalls.com/download/aurora-borealis-9h-1366x768.jpg);
+    background-position-x: center;
+    background-position: 500%;
+    margin: 0%;
 } 
+
+#middle{
+    height: 300px;
+}
 
 #logoAuroraMenu{
     margin-top: -13%;
@@ -87,11 +93,13 @@ body{ /* CORPO */
 }
 
 #h1Middle{
-    color: #fff;
+    margin: 0%;
+    margin-top: -20%;
+    /*color: rgb(0, 0, 0);
     text-shadow:
-      0 0 7px rgba(38, 255, 244, 0.075),
-      0 0 10px #fff,
-      0 0 21px #fff,
+      0 0 7px rgba(0, 0, 0, 0.075),
+      0 0 10px rgba(255, 255, 255, 0.014),
+      0 0 21px rgba(150, 154, 160, 0.877),
       0 0 42px #0fa,
       0 0 82px #0fa,
       0 0 92px #0fa,
