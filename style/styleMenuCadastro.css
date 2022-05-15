@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Ailerons-Regular;
+    src: url(../fonts/Ailerons-Regular.otf);
+}
+
+
+#menu{ /*PRIMEIRO DIV*/
+    list-style: none;
+    font-family: 'Ailerons-Regular', sans-serif;
+    background-color: black;
+    position: relative;
+    3px solid rgb(255, 255, 255);
+    3px solid rgb(0, 0, 0);   
+}
+
+#navMENU ul{ /* UL */
+    display: inline-flex;
+    float: right;
+    gap: 2rem;
+    padding-right: 30px;
+    margin-top: 17px;
+    list-style: none;
+    font-size: 18px;
+    font-style: normal;
+}
+
+#navMENU li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-style: normal;
+}
+
+#linkMENU {
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+#h1MENU{
+    font-weight: 300;
+}
+
