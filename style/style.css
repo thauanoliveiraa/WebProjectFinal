@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
   }
 
 body{ /* CORPO */
-    background-color: #111111;
+    background-color: #000000;
     /* background-color: black; */
     background-size: 100%;
     background-attachment: fixed;
@@ -36,10 +36,10 @@ body{ /* CORPO */
 
 #menu{ /*PRIMEIRO DIV*/
     background-color: black;
-    height: 70px;
+    min-height: 70px;
     position: relative;
     3px solid rgb(255, 255, 255);
-    3px solid rgb(0, 0, 0);   
+    3px solid rgb(0, 0, 0); 
 }
 
 #navMENU ul{ /* UL */
@@ -75,6 +75,10 @@ body{ /* CORPO */
 
 #linkMIDDLE{
     text-decoration: none;
+}
+
+#realMenu{
+    border-bottom: solid;
 }
 
 
@@ -117,27 +121,63 @@ body{ /* CORPO */
 }
 
 
-#h1Video{
+.h1Video{
     color: white;
     font-weight: 300;
     font-size: 45px;
     background-color: black;
+    
     padding-top: 20px; 
     padding-left: 30px;
 }
 
 #marcas{
     margin-top: 50px;
+    padding-bottom: 100px;
 }
 
 #editMarcas{
     min-height: 70px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    padding-top: 1px;
+    padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: center;
+    float: inline-end;
     border-radius: 2px;
+    background-color: black;
+}
+
+.tamanhoImagem{
+    width: 280px;
+    height: 200px;
+    border: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-image: url(https://i.makeagif.com/media/1-12-2021/YsWRDA.gif);
     background-color: white;
-    height: 500px;
+}
+
+.primeiraLinha{
+    padding-bottom: 15px;
+}
+
+.segundaLinha{
+    padding-bottom: 15px;
+}
+
+.terceiraLinha{
+    padding-bottom: 15px;
+}
+
+.quartaLinha{
+    padding-bottom: 15px;
+}
+
+#video{
+}
+
+.comumText{
+    color: white;
 }
