@@ -18,7 +18,8 @@ body::-webkit-scrollbar {
   
   body::-webkit-scrollbar-track {
     background-color: rgb(0, 0, 0);
-  }
+
+  } 
   
   body::-webkit-scrollbar-thumb {
     width: 10px;
@@ -36,8 +37,11 @@ body{ /* CORPO */
 }
 
 #menu{ /*PRIMEIRO DIV*/
-    background-color: black;
+    background-image: linear-gradient(black, rgb(36, 36, 36));
+    background-image: linear-gradient(black, rgb(36, 36, 36));
     min-height: 70px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-color: rgba(0, 255, 255, 0.479);
     position: relative;
     3px solid rgb(255, 255, 255);
     3px solid rgb(0, 0, 0); 
@@ -133,8 +137,7 @@ body{ /* CORPO */
 }
 
 #marcas{
-    margin-top: 50px;
-    padding-bottom: 100px;
+    margin-top: px;
 }
 
 #editMarcas{
@@ -148,9 +151,14 @@ body{ /* CORPO */
     float: inline-end;
     border-radius: 2px;
     background-color: black;
+    background-image: linear-gradient(black, rgb(36, 36, 36),  rgb(36, 36, 36));
+    background-image: linear-gradient(black, rgb(36, 36, 36),  rgb(36, 36, 36));
 }
 
 .tamanhoImagem{
+    
+    background-color: black;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     width: 280px;
     height: 200px;
     border: solid;
@@ -177,8 +185,26 @@ body{ /* CORPO */
 }
 
 #video{
+    border-top: 1px solid rgb(255, 255, 255);
+    border-color: rgba(0, 255, 255, 0.479);
 }
 
 .comumText{
     color: white;
+}
+
+.tamanhoImagem:hover
+{
+    box-shadow: inset 60px 0 0 0 gray;
+    color: white;
+      -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        
+}
+
+#h1Menu:hover{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
 }
