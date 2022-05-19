@@ -29,10 +29,12 @@ body::-webkit-scrollbar {
   }
 
 body{ /* CORPO */
-    background-image: url(https://i.pinimg.com/originals/85/a8/ec/85a8ec657916bb73057ebb16d3b0958e.jpg);
+    background-image: url(https://img.freepik.com/free-vector/404-error-background-with-glitch-effect_126980-548.jpg);
+    background-size: 80%;
     background-color: #000000;
     /* background-color: black; */
-    background-size: 100%;
+    background-position: 50%;
+    background-size: 90%;
     background-attachment: fixed;
 }
 
@@ -303,5 +305,4 @@ body{ /* CORPO */
     -ms-transform: scale(0.8);
     transform: scale(0.8);
 }
-
 
