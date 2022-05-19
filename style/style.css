@@ -37,8 +37,7 @@ body{ /* CORPO */
 }
 
 #menu{ /*PRIMEIRO DIV*/
-    background-image: linear-gradient(black, rgb(36, 36, 36));
-    background-image: linear-gradient(black, rgb(36, 36, 36));
+    background-color: #000000;
     min-height: 70px;
     border-bottom: 1px solid rgb(255, 255, 255);
     border-color: rgba(0, 255, 255, 0.479);
@@ -62,7 +61,7 @@ body{ /* CORPO */
 #navMENU li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
 }
 
@@ -203,76 +202,105 @@ body{ /* CORPO */
         
 }
 
-#h1Menu:hover{
+#ulMenu li a:hover{
     -webkit-transform: rotateZ(-30deg);
     -ms-transform: rotateZ(-30deg);
     transform: rotateZ(-30deg);
 }
 
-#sobre{
-
+.sobreTudo {
+    background-image: url(https://64.media.tumblr.com/6b24ab263abb466ee604409af3d02874/tumblr_p7p5m5hZlK1w3y4ilo1_500.gifv);
 }
 
-.comumText{
+#editSobre{
     background-color: black;
+    
 }
 
-#modelosCarros > img{
+.esquerda{
+    
+}
+
+#esquerda{
+    background-image: url(https://thumbs.gfycat.com/ChubbyNiceCommabutterfly-size_restricted.gif);
+    padding-top: 80px;
+    padding-left: 162px;
+    font-size: 40px;
+    margin-right: 0%;
+}
+
+#paragrafoEsquerda1{
+    text-align: center;
+    font-weight: 100;
+    margin-right: 0%;
     width: 500px;
-    height: 300px;
 }
 
-.slider {
-    display: block;
-    height: 293px;
-    width: 600px;
+#direita{
+    background-image: url(https://thumbs.gfycat.com/ChubbyNiceCommabutterfly-size_restricted.gif);
+    padding-top: 100px;
+    padding-left: 1015px;
+    font-size: 40px;
+}
+
+#paragrafoDireita{
+    float: right;
+    text-align: center;
+    font-weight: 100;
+    width: 500px;
+}
+
+#esquerda2{
+    background-image: url(https://thumbs.gfycat.com/ChubbyNiceCommabutterfly-size_restricted.gif);
+    padding-top: 10px;
+    padding-left: 162px;
+    font-size: 40px;
+}
+
+#paragrafoEsquerda2{
+    text-align: center;
+    font-weight: 100;
+    width: 500px;
+    padding-bottom: 80px;
+}
+
+.imagemEsquerda img{
+        margin: auto;
+        height: 20%;
+        width: 40%;
+        float: right;
+        margin-top: -22%; 
+        border-radius: 10px
+}
+
+.imagemEsquerda2 img{
     margin: auto;
-    margin-top: 20px;
-    position: relative;
+    height: 20%;
+    width: 40%;
+    float: right;
+    margin-top: -25%; 
+    border-radius: 10px
 }
 
-.slider li {
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
+.imagemDireita img{
     margin: auto;
-    height: 100%;
-    width: 100%;
-    vertical-align: top;
+    height: 20%;
+    width: 40%;
+    margin-top: -15%; 
+    border-radius: 10px
 }
 
-.slider label {
-    background-color: #000;
-    bottom: 10px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
-    position: absolute;
-    width: 10px;
-    z-index: 10;
+#navMENU li a{
+
 }
 
-.slider li:nth-child(1) label {
-    left: 10px;
+#navMENU li a:hover{
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    color: rgb(139, 138, 138);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
-.slider li:nth-child(2) label {
-    left: 40px;
-}
-
-.slider li:nth-child(3) label {
-    left: 70px;
-}
-
-.slider img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider li input:checked ~ img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-}

@@ -1,0 +1,139 @@
+
+.apresentacaoCarros{
+    background-image: url(https://i.makeagif.com/media/1-12-2021/YsWRDA.gif);
+    margin-top: 10px;
+    margin-left: 168px;
+    height: 565px;
+    width: 480px;
+    padding-top: 5px;
+    border-radius: 10px;
+    zoom: 90%;
+}
+
+.nomeCarro{
+    padding-left: 4px;
+    margin-top: -1%;
+    padding-top: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#nomeCarro{
+    text-decoration: none;
+    color: black;    
+}
+
+.nomeCarro:hover
+{
+    box-shadow: inset -60px 0 0 0 gray;
+    color: rgb(0, 0, 0);
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+}
+
+.especificacoes{
+    font-size: 22px;
+    padding-left: 40px;
+    width: 397px;
+    margin-left: 40px;
+    padding-left: 4px;
+    color: black;
+}
+
+.valorCarro{
+    font-size: 35px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding-left: 115px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.valorCarro:hover
+{
+    box-shadow: inset 60px 0 0 0 gray;
+    color: rgb(0, 0, 0);
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+}
+
+
+#valorCarro{
+    text-decoration: none;
+    color: black;
+}
+
+.models{
+    display: inline-flex;
+    gap: 2rem;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 400px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    position: relative;
+    margin-right: 40px;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 10px
+}
+
+.slider label {
+    background-color: rgb(0, 0, 0);
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    position: absolute;
+    width: 25px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.apresentacaoCarros:hover
+{
+    -webkit-transform: perspective();
+    -ms-transform: perspective();
+    transform: perspective();
+}
